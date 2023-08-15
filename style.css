@@ -43,9 +43,17 @@ p {
   text-align: center;
 }
 
+/* For changelogs */
+.changelogs-alignleft h1,
+.changelogs-alignleft h2 {
+  text-align: left;
+}
+
 li {
-  background-image: linear-gradient(to right, #ff9900, #ff6600);
-  border: 2px solid #ff9900;
+  background-color: #ff6600;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #ad1deb, #6e72fc);
+  border-image-slice: 1;
   border-radius: 5px;
   padding: 8px 12px;
   margin: 5px;
